@@ -938,6 +938,10 @@
 }
 
 @media (max-width: 575px) {
+  .u-section-4 .u-sheet-1 {
+    min-height: 1476px;
+  }
+
   .u-section-4 .u-text-1 {
     width: auto;
     margin-top: 43px;
@@ -947,7 +951,7 @@
 
   .u-section-4 .u-accordion-1 {
     width: 340px;
-    margin-bottom: -84px;
+    margin-bottom: 23px;
   }
 
   .u-section-4 .u-accordion-pane-1 {
