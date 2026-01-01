@@ -46591,6 +46591,11 @@ a.u-link.u-text-hover-color-var:hover {
   }
 }
 
+ /*begin-variables custom-site-css*//* Этот код отключает пункт "Рекомендации" в фильтре Категорий блока товаров */
+.u-select-categories option[value="featured"] {
+  display: none;
+}
+/*end-variables custom-site-css*/
  /*begin-variables base-font-size*/ 
  html { font-size: 16px; }
  /*end-variables base-font-size*/
